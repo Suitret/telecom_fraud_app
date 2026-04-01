@@ -20,9 +20,12 @@ Telecommunication fraud (such as SIM-boxing, call masking, and international rev
 telecom_fraud_app/
 ├── app.py # Streamlit Web Application (UI/UX)
 ├── model_utils.py # Custom Encoding & Transformation Logic
+├── model_new.pkl # Model
+├── label_encoder.pkl # Label Encoder
 ├── train.py # Model Training & Serialization Script
 ├── requirements.txt # Project Dependencies
-└── data/ └── realtime_cdr_log.csv # Dataset (Kaggle Source)
+└── data/
+        └── realtime_cdr_log.csv # Dataset (Kaggle Source)
 ```
 ---
 
