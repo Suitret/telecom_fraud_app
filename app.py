@@ -4,7 +4,7 @@ import joblib
 import numpy as np
 
 # Load assets
-model = joblib.load('model.pkl')
+model = joblib.load('model_new.pkl')
 le = joblib.load('label_encoder.pkl')
 
 st.set_page_config(page_title="Telecom Fraud Detector", layout="centered")
